@@ -29,18 +29,17 @@ window.scrollTo(0, 0)
 };
 
    return(
-   <div style={{backgroundColor: '#EBEBEB'}}>
+   <div style={{backgroundColor: '#EBEBEB', width: '800px', margin: 'auto'}}>
      <Row>
        <div
         style={{
         paddingLeft: '15px',
         paddingRight: '15px',
         marginRight: '10px',
-        // color: 'black',
         backgroundColor: 'white',
         opacity: '0.7',
         position: 'absolute',
-        top: '150px',
+        top: '30px',
         right: '0px',
         width: '300px'
         }}
@@ -56,37 +55,38 @@ window.scrollTo(0, 0)
         <p style={{
           color: 'black'
         }}
-        >Lorem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet, när en okänd boksättare tog att antal bokstäver och blandade dem för att göra ett provexemplar av en bok. </p>
+        >Lorem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet, när en okänd boksättare tog att antal bokstäver och blandade dem för att göra ett provexemplar av en bok. 
+        </p>
        </span>
        </div>
 
-       <img src={twelve} alt={''} style={{ width: '100%', marginTop: '105px' }}/>
+       <img src={twelve} alt={''} style={{ width: '100%', marginTop: '-47px' }}/>
      </Row>
     <Row gutter={0} style={{ backgroundColor: '#E11313' }}>
       <Col span={18}>
         <div
          style={{
          color: 'white',
-         position: 'absolute',
-         top: '20px',
+         position: 'relative',
+         top: '30px',
          left: '20px',
          width: '80%'
          }}
           >
           <span>
             <h2><p style={{
-              fontSize: '5vw',
+              fontSize: '20px',
               color: 'white',
               marginBottom: '-10px'
             }}>VÅRA TJÄNSTER</p>
             </h2>
             <h6><p style={{
               color: 'white',
-              fontSize: '2vw'
+              fontSize: '15px'
             }}>LOREM IPSUM ÄR NÅGOT MAN ANVÄNDER SOM UTFYLLNADSTEXT</p>
             </h6>
 
-         <p style={{ fontSize: '1.5vw' }}>Lorem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet, när en okänd boksättare tog att antal bokstäver och blandade dem för att göra ett provexemplar av en bok. </p>
+         <p style={{ fontSize: '10px' }}>Lorem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet, när en okänd boksättare tog att antal bokstäver och blandade dem för att göra ett provexemplar av en bok. </p>
         </span>
         <button
           className="serviceButton"
@@ -113,7 +113,7 @@ window.scrollTo(0, 0)
           color: '#E11313'
         }}>LOREM IPSUM ÄR NÅGOT ATT VID BEHOV ANVÄNDA SOM UTFYLLNAD</p>
         </h6>
-        <p style={{fontSize: '1.3vw'}}>Lorem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet, när en okänd boksättare tog att antal bokstäver och blandade dem för att göra ett provexemplar av en bok. </p>
+        <p className="textThreeColumns">Lorem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet, när en okänd boksättare tog att antal bokstäver och blandade dem för att göra ett provexemplar av en bok. </p>
 
       </div>
 
@@ -128,7 +128,7 @@ window.scrollTo(0, 0)
            color: '#E11313'
          }}>LOREM IPSUM ÄR NÅGOT ATT VID BEHOV ANVÄNDA SOM UTFYLLNAD</p>
          </h6>
-         <p style={{fontSize: '1.3vw'}} >Lorem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet, när en okänd boksättare tog att antal bokstäver och blandade dem för att göra ett provexemplar av en bok. </p>
+          <p className="textThreeColumns" >Lorem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet, när en okänd boksättare tog att antal bokstäver och blandade dem för att göra ett provexemplar av en bok. </p>
        </div>
 
      </Col>
@@ -141,7 +141,7 @@ window.scrollTo(0, 0)
            color: '#E11313'
          }}>LOREM IPSUM ÄR NÅGOT ATT VID BEHOV ANVÄNDA SOM UTFYLLNAD</p>
          </h6>
-         <p style={{fontSize: '1.3vw'}} >Lorem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet, när en okänd boksättare tog att antal bokstäver och blandade dem för att göra ett provexemplar av en bok. </p>
+          <p className="textThreeColumns" >Lorem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet, när en okänd boksättare tog att antal bokstäver och blandade dem för att göra ett provexemplar av en bok. </p>
        </div>
      </Col>
    </Row>
@@ -171,6 +171,7 @@ window.scrollTo(0, 0)
   </Col>
    </Row>
    <br />
+   <hr />
 
    <Row>
      <Contact />

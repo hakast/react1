@@ -17,7 +17,7 @@ class App extends Component {
 
   render() {
     return (
-      <div  style={{ verticalAlign: 'middle' }}>
+      <div  style={{  }}>
 
 {/* https://www.w3schools.com/howto/howto_js_navbar_sticky.asp */}
       <HashRouter>

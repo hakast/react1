@@ -85,7 +85,7 @@ render() {
   const msg = ['Meddelande: ' + this.state.msg]
 
 return(
-<div style={{backgroundColor: '#EBEBEB'}}>
+<div style={{backgroundColor: '#EBEBEB', maxWidth: '800px', margin: 'auto'}}>
   <div>
   <Alert
     style={{
@@ -114,10 +114,9 @@ return(
     {msg}
   </Alert>
 </div>
-
- <Row style={{ paddingTop: '140px'}}
-   >
-   <Col span={8} style={{ paddingLeft: '20px'}}>
+ <Row >
+  <div style={{ marginTop: '50px' }}>
+   <Col span={8} style={{ paddingLeft: '50px', marginTop: '6px'}}>
      <div>
        <h4>ADRESS</h4>
        <p>Hammarby allé 119 <br />120 64 Stockholm</p>
@@ -130,7 +129,7 @@ return(
    </Col>
 
    <Col span={16} style={{ paddingLeft: '70px'}}>
-       <h4>ÖNSKAR MER INFO</h4>
+       <h4>SKICKA MER INFO!</h4>
        <p>
          FYLL I SAMTLIGA FÄLT! <br />
          Maila oss för frågor eller använd kontaktdata
@@ -188,7 +187,8 @@ return(
         </Form>
 
    </Col>
- </Row>
+  </div>
+  </Row>
 
 </div>
 );
