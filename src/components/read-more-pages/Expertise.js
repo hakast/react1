@@ -7,7 +7,7 @@ class Expertise extends Component {
   render() {
 
   return(
-    <div style={{ padding: '150px'}}>
+    <div style={{ padding: '10px', width: '800px', margin: 'auto', marginTop: '20px'}}>
       <span>
         <h2 style={{ fontWeight: '700'}}>VÅR EXPERTIS</h2>
       </span>

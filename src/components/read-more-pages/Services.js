@@ -10,7 +10,7 @@ class Services extends Component {
    render() {
 
    return(
-     <div style={{ padding: '25px'}}>
+     <div style={{ padding: '10px', width: '800px', margin: 'auto', marginTop: '20px' }}>
        <span>
          <h2 style={{ fontWeight: '500'}}>LOREM IPSUM ÄR NÅGOT ATT VID BEHOV ANVÄNDA SOM UTFYLLNAD</h2>
        </span>
